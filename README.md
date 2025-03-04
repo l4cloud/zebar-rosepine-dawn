@@ -7,5 +7,5 @@ This repository contains configuration files for **Zebar** with a pre-configured
 1. Clone this repository into your `.glzr/zebar` directory:
 
    ```bash
-   git clone <repository-url> ~/.glzr/zebar
+   git clone https://github.com/l4cloud/zebar-rosepine-dawn ~/.glzr/zebar
 
