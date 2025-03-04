@@ -1,0 +1,129 @@
+/**
+ * Import the Nerdfonts icon font.
+ * Ref https://www.nerdfonts.com/cheat-sheet for a cheatsheet of available Nerdfonts icons.
+ */
+@import 'https://www.nerdfonts.com/assets/css/webfont.css';
+
+i {
+  color: #575279;
+  margin-right: 7px;
+}
+
+body {
+  color: #575279;
+  font-family: ui-monospace, monospace;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+div,
+span,
+p {
+  cursor: default;
+  user-select: none;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  border-bottom: 1px solid rgb(255 255 255 / 5%);
+  background: rgb(250, 244, 237 / 90%);
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  height: 100%;
+  padding: 4px 3px;
+}
+
+.left,
+.center,
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  justify-self: center;
+}
+
+.right {
+  justify-self: end;
+  padding-right: 3px;
+}
+
+.logo,
+.binding-mode,
+.tiling-direction,
+.paused-button,
+.network,
+.memory,
+.cpu,
+.battery {
+  margin-right: 20px;
+}
+
+.workspaces {
+  display: flex;
+  align-items: center;
+}
+
+.workspace {
+  background: #797593;
+  margin-right: 6px;
+  padding: 8px 12px;
+  color: #faf4ed;
+  border: none;
+  border-radius: 5%;
+  cursor: pointer;
+
+  &.displayed {
+    background: #797593;
+  }
+
+  &.focused,
+  &:hover {
+    background: #b4637a;
+  }
+}
+
+.workspace:first {
+  margin-right:0px;
+}
+
+.binding-mode,
+.tiling-direction,
+.paused-button {
+  background: rgb(255 255 255 / 15%);
+  color: #575279;
+  border-radius: 2px;
+  line-height: 1;
+  padding: 4px 8px;
+  border: 0;
+  cursor: pointer;
+}
+
+.binding-mode {
+  margin-right: 4px;
+}
+
+.cpu .high-usage {
+  color: #cecacd;
+}
+
+.battery {
+  position: relative;
+}
+
+.battery .charging-icon {
+  position: absolute;
+  font-size: 7px;
+  left: -8px;
+  top: 3px;
+}
