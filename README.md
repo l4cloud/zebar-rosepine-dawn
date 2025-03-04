@@ -9,3 +9,4 @@ This repository contains configuration files for **Zebar** with a pre-configured
    ```bash
    git clone https://github.com/l4cloud/zebar-rosepine-dawn ~/.glzr/zebar
 
+![image](https://github.com/user-attachments/assets/5c1f56ff-5cdf-42c5-92ec-e467c4217c77)
